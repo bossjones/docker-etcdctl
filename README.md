@@ -11,7 +11,7 @@ Build the image
 To create this image, execute the following command in the docker-etcdctl folder.
 
     docker build \
-        -t cburki/haproxy-confd
+        -t bossjones/docker-etcdctl
         .
 
 

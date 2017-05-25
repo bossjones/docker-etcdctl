@@ -1,7 +1,7 @@
 FROM debian:jessie
 MAINTAINER Christophe Burki, christophe.burki@gmail.com
 
-ENV ETCD_VERSION 2.2.5
+ENV ETCD_VERSION 2.3.7
 
 # install etcd
 ADD https://github.com/coreos/etcd/releases/download/v${ETCD_VERSION}/etcd-v${ETCD_VERSION}-linux-amd64.tar.gz /tmp/etcd.tar.gz
